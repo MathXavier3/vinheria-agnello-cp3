@@ -1,0 +1,90 @@
+/* RESET BÁSICO: remove margens/padding e define box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilização geral do body */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f4f0;
+  color: #3e3e3e;
+  line-height: 1.6;
+}
+
+/* Header com fundo escuro e menu horizontal usando Flexbox */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #5a2a27;
+  color: white;
+}
+
+/* Links do menu com espaçamento e transição */
+.menu a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Efeito visual com pseudo-classe :hover */
+.menu a:hover {
+  color: #ffd700; /* amarelo vinho */
+}
+
+/* Seção de destaque com efeito de transformação */
+.destaque {
+  background-color: #ffe8d6;
+  text-align: center;
+  padding: 40px 20px;
+  transform: scale(1); /* transformação padrão */
+  transition: transform 0.3s;
+}
+
+/* Aplica efeito de zoom ao passar o mouse (:hover) */
+.destaque:hover {
+  transform: scale(1.03);
+}
+
+/* Container dos cards com Flexbox e espaçamento */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+/* Estilo individual de cada card */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s;
+}
+
+/* Aplica rotação e aumento ao passar o mouse no card */
+.card:hover {
+  transform: rotate(-1deg) scale(1.05);
+}
+
+/* Imagem dentro do card */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Rodapé fixo ao final */
+.footer {
+  background-color: #5a2a27;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
