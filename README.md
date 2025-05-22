@@ -18,5 +18,5 @@ Este projeto é uma página única desenvolvida como parte do Checkpoint 03 da d
 
 ## Links
 
-🔗 [Repositório no GitHub](https://github.com/seu-usuario/vinharia-agnello)  
-🌐 [Site publicado no GitHub Pages](https://seu-usuario.github.io/vinharia-agnello/)
+🔗 [Repositório no GitHub](https://github.com/MathXavier3/vinheria-agnello-cp3)  
+🌐 [Site publicado no GitHub Pages]()
