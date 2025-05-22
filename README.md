@@ -1,4 +1,4 @@
-# Vinharia Agnello 🍷
+# Vinheria Agnello 🍷
 
 ## Descrição
 
@@ -19,4 +19,4 @@ Este projeto é uma página única desenvolvida como parte do Checkpoint 03 da d
 ## Links
 
 🔗 [Repositório no GitHub](https://github.com/MathXavier3/vinheria-agnello-cp3)  
-🌐 [Site publicado no GitHub Pages]()
+🌐 [Site publicado no GitHub Pages](https://mathxavier3.github.io/vinheria-agnello-cp3/)
